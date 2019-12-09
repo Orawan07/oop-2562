@@ -1,3 +1,4 @@
+
 public class Student {
 
     protected String studentId;
@@ -21,22 +22,11 @@ public class Student {
         System.out.println("dropCourse");
     }
 
-    public void showdata(){
-        System.out.println("ID : "+studentId);
-        System.out.println("Name : "+studentName);
-        System.out.println("Major : "+major);
-        System.out.println("Faculty : "+faculty);
-   
-    }
-    public static void main(String[] args) {
-        Student orawan = new Student();
-        System.out.println("Opject = "+orawan);
-        orawan.studentId = "614234021";
-        orawan.studentName = "Orawan";
-        orawan.major = "Comsci";
-        orawan.faculty = "Science and Technogogy";
-        
+    public void showdata() {
+        System.out.println("ID : " + studentId);
+        System.out.println("Name : " + studentName);
+        System.out.println("Major : " + major);
+        System.out.println("Faculty : " + faculty);
+
     }
 }
-
-    
